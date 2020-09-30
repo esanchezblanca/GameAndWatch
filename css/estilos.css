@@ -1,0 +1,28 @@
+
+
+
+
+.externalFrame {
+    width: 50em;
+    height: 30em;
+
+    background-color: rgb(188, 56, 89);
+
+
+    
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+   
+}
+
+.internalFrame {
+    width: 48.5em;
+    height: 27em;
+    
+    background-color: rgb(217, 202, 180);
+
+    margin: 0 auto;
+
+}
