@@ -53,32 +53,53 @@ body {background-color: #4f5d75;}
 }
 
 .leftButtons {
-    background-color: hotpink;
 
     display: grid;
 }
 
 
-.logo{
-background-color: orange;
+    .logo{}
 
-}
+        .imgLogo {
+            width: 8em;
+            height: 6em;
+
+            position: relative;
+            top: 3em;
+            left: 3em;
+        }
 
     .directionButton{
-    background-color: green;
+    
     }
 
 .rightButtons {
-    background-color: lawngreen;
 
+    background-color: green;
+    
     display: grid;
     grid-template-rows: repeat(2, 50%);
 }
 
     .topRightButtons{
         background-color: red;
+
+        display: grid;
+        grid-template-rows: repeat(3, 33%);
     }
 
     .bottomRightButtons {
         background-color: indigo;
+    }
+
+    .gameButton {
+        background-color: skyblue;
+    }
+
+    .timeButton {
+        background-color: purple;
+    }
+
+    .pauseButton{
+        background-color: white;
     }
