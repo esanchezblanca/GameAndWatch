@@ -55,6 +55,7 @@ body {background-color: #4f5d75;}
 .leftButtons {
 
     display: grid;
+    grid-template-rows: 50%;
 }
 
 
@@ -70,28 +71,53 @@ body {background-color: #4f5d75;}
         }
 
     .directionButton{
+        background-color: tomato;
     
     }
 
 .rightButtons {
 
-    background-color: green;
-    
     display: grid;
     grid-template-rows: repeat(2, 50%);
 }
 
     .topRightButtons{
-        background-color: red;
-
+   
         display: grid;
         grid-template-rows: repeat(3, 33%);
     }
 
-    .bottomRightButtons {
-        background-color: indigo;
+    .bottomRightButton {
+
+        display: grid ;
+        grid-template-columns: 50% 50%;
+
     }
 
+        .roundButton {
+            background-color: rgb(188, 56, 89);
+            width: 4.7em;
+            height: 4.7em;
+            
+            
+            position: relative;
+            top: 35%;
+            left: 17%;
+            border-radius: 50px;
+        }
+
+            .button {
+                background-color: rgb(207, 93, 120);
+                width: 4.5em;
+                height: 4.5em;
+
+                border-radius: 50%;
+                position: relative;
+                top: 11%;
+                left: 10%;
+            }
+
+    
     .gameButton {
         background-color: skyblue;
     }
