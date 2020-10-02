@@ -14,118 +14,163 @@ body {background-color: #4f5d75;}
     margin-top: 70px;
 
     border-radius: 2%;
-   
 }
 
-.consoleBody {
-    width: 48.5em;
-    height: 27em;
-    
-    background-color: rgb(217, 202, 180);
-    background: linear-gradient(to top left, #b1aca5 23%, #e1d1c3 39%);
+    .consoleBody {
+        width: 48.5em;
+        height: 27em;
+        
+        background-color: rgb(217, 202, 180);
+        background: linear-gradient(to top left, #b1aca5 23%, #e1d1c3 39%);
 
-    margin: 0 auto;
-    border-radius: 2%;
+        margin: 0 auto;
+        border-radius: 2%;
 
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-    
-}
-
-.screen {
-    width: 19.4em;
-    height: 14em;
-    background-color: grey;
-    
-    position: relative;
-    top: 6em;
-    
-
-}
-
-.gif {
-    width: 16em;
-    height: 12em;
-    position: relative;
-    top: 1em;
-    left: 1em;
-
-}
-
-.leftButtons {
-
-    display: grid;
-    grid-template-rows: 50%;
-}
-
-
-    .logo{}
-
-        .imgLogo {
-            width: 8em;
-            height: 6em;
-
-            position: relative;
-            top: 3em;
-            left: 3em;
-        }
-
-    .directionButton{
-        background-color: tomato;
-    
-    }
-
-.rightButtons {
-
-    display: grid;
-    grid-template-rows: repeat(2, 50%);
-}
-
-    .topRightButtons{
-   
         display: grid;
-        grid-template-rows: repeat(3, 33%);
+        grid-template-columns: 30% 40% 30%;
+        
     }
+        .screenFrame{
 
-    .bottomRightButton {
-
-        display: grid ;
-        grid-template-columns: 50% 50%;
-
-    }
-
-        .roundButton {
-            background-color: rgb(188, 56, 89);
-            width: 4.7em;
-            height: 4.7em;
-            
-            
             position: relative;
-            top: 35%;
-            left: 17%;
-            border-radius: 50px;
+        
+            left: -1.5em;
+
+            display: grid;
+            grid-template-rows: 20% 60% 20%;
         }
 
-            .button {
-                background-color: rgb(207, 93, 120);
-                width: 4.5em;
-                height: 4.5em;
+            .gameName{
+                text-align: center;
+                font-weight: bold;
+                font-family: Arial;
 
-                border-radius: 50%;
+
                 position: relative;
-                top: 11%;
-                left: 10%;
+                top:3em;
+                
             }
 
+            .screen {
+                width: 20em;
+                height: 14em;
+                background-color: grey;
+            
+                position: relative;
+
+                border: rgb(188, 56, 89);
+                border-style: solid;
+                border-width: 0.3em;
+                width: 20em;
+                height: 14em;
+                
+            }
+
+                .gif {
+                    width: 16em;
+                    height: 12em;
+                    position: relative;
+                    top: 1em;
+                    left: 1em;
+
+                }
+            
+            .nintendoLogo{
+                position: relative;
+
+                display: flex;
+                align-items: flex-start;
+                
+                position: relative;
+                top: -1em;
+                left: 7em;
+                
+
+            }
+
+        .leftButtons {
+
+            display: grid;
+            grid-template-rows: 50%;
+        }
+
+
+
+            .imgLogo {
+                width: 8em;
+                height: 6em;
+
+                position: relative;
+                top: 3em;
+                left: 3em;
+            }
+
+            .directionButton{
+
+                position: relative;
+                top: 2em;
+                left: 2em;
+            }
+
+            .rightButtons {
+
+                display: grid;
+                grid-template-rows: repeat(2, 50%);
+            }
+
+                .topRightButtons{
+                    
+                    display: grid;
+                    grid-template-rows: repeat(3, 33%);
+                }
+
+                    .gameButtonBorder {
+                        background-color: skyblue;
+                    }
+                
+                    .timeButton {
+                        background-color: purple;
+                    }
+                
+                    .pauseButton{
+                        background-color: white;
+                    }
+
+
+
+                .bottomRightButton {
+
+                    display: grid ;
+                    grid-template-columns: 50% 50%;
+
+                }
+
+                    .roundButton {
+                        background-color: rgb(188, 56, 89);
+                        width: 4.7em;
+                        height: 4.7em;
+                        
+                        
+                        position: relative;
+                        top: 38%;
+                        left: 17%;
+                        border-radius: 50px;
+                    }
+
+                        .button {
+                            background-color: rgb(207, 93, 120);
+                            width: 4.5em;
+                            height: 4.5em;
+
+                            border-radius: 50%;
+                            position: relative;
+                            top: 0.5em;
+                            left: 10%;
+                        }
+            
+                        .text{
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: Arial;
+                        }
     
-    .gameButton {
-        background-color: skyblue;
-    }
-
-    .timeButton {
-        background-color: purple;
-    }
-
-    .pauseButton{
-        background-color: white;
-    }
