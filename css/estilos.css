@@ -125,16 +125,108 @@ body {background-color: #4f5d75;}
                 }
 
                     .gameButtonBorder {
-                        background-color: skyblue;
+
+                        background-color: rgb(188, 56, 89);
+                        width: 4em;
+                        height: 2em;
+                        
+                        
+                        position: relative;
+                        top: 38%;
+                        left: 10%;
+                        border-radius: 25px;
+
                     }
+
+                        .gameButton{
+                        
+                            background-color: rgb(189, 185, 188);
+                            width: 3.9em;
+                            height: 2em;
+
+                            position: relative;
+                            top: 0.15em;
+                            left: 10%;
+                            border-radius: 25px;
+                        }
+
+                        .gameButtonText{
+                        
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: Arial;
+                            font-size: 14px;
+
+                            position: relative;
+                            top: 0.4em;
+                        }
+
+                    .timeButtonBorder {
+                        background-color: rgb(188, 56, 89);
+                        width: 4em;
+                        height: 2em;
+                        
+                        
+                        position: relative;
+                        top: 15%;
+                        left: 10%;
+                        border-radius: 25px;
+                    }
+
+                        .timeButton{
+                            background-color: rgb(189, 185, 188);
+                            width: 3.9em;
+                            height: 2em;
+
+                            position: relative;
+                            top: 0.15em;
+                            left: 10%;
+                            border-radius: 25px;
+                        }
+
+                        .timeButtonText{
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: Arial;
+                            font-size: 14px;
+
+                            position: relative;
+                            top: 0.4em;
+                        }
                 
-                    .timeButton {
-                        background-color: purple;
+                    .pauseButtonBorder{
+                        background-color: rgb(188, 56, 89);
+                        width: 4em;
+                        height: 2em;
+                        
+                        
+                        position: relative;
+                        top: -10%;
+                        left: 10%;
+                        border-radius: 25px;
                     }
-                
-                    .pauseButton{
-                        background-color: white;
-                    }
+
+                        .pauseButton{
+                            background-color: rgb(189, 185, 188);
+                            width: 3.9em;
+                            height: 2em;
+
+                            position: relative;
+                            top: 0.15em;
+                            left: 10%;
+                            border-radius: 25px;
+                        }
+
+                        .pauseButtonText{
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: Arial;
+                            font-size: 14px;
+
+                            position: relative;
+                            top: 0.4em;
+                            left: -0.5em;
+                        }
 
 
 
